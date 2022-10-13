@@ -114,4 +114,7 @@ def actualizacionPassword():
         controlador.actualizapass(passw2,email_origen)
         return "ActualizaciÓn de password satisfactoria"
 
+application=app
+if __name__ == "__main__":
+    application.run()
 
